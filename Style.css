@@ -1,0 +1,43 @@
+.img-box{
+    overflow: hidden;
+    position: absolute;
+    height: 90%;
+    left: -2vh;
+}
+
+.img-container{
+    display: flex;
+   width: 100%;
+   animation: slide 15s infinite;
+}
+
+.img-container img{
+    
+    width: 101%;
+}
+
+@keyframes slide {
+    0%{
+        transform: translateX(0);
+    }
+    33%{
+        transform: translateX(0);
+    }
+    36%{
+        transform: translateX(-100%);
+    }
+    66%{
+        transform: translateX(-100%);
+    }
+    69%{
+        transform: translateX(-200%);
+    }
+    100%{
+     transform: translateX(-200%);
+    }
+}
+
+
+@media(max-width:768px){
+
+}
