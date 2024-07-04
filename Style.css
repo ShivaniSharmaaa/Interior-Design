@@ -1,43 +1,57 @@
 .img-box{
     overflow: hidden;
     position: absolute;
-    height: 90%;
-    left: -2vh;
+    
+    left: 0vh;
 }
 
 .img-container{
     display: flex;
-   width: 100%;
+   width: 109%;
    animation: slide 15s infinite;
 }
 
 .img-container img{
     
-    width: 101%;
+    width: 100%;
 }
 
 @keyframes slide {
     0%{
-        transform: translateX(0);
+        transform: translateX(-4%);
     }
     33%{
-        transform: translateX(0);
+        transform: translateX(-4%);
     }
     36%{
-        transform: translateX(-100%);
+        transform: translateX(-102%);
     }
     66%{
-        transform: translateX(-100%);
+        transform: translateX(-102%);
     }
     69%{
-        transform: translateX(-200%);
+        transform: translateX(-202%);
     }
     100%{
-     transform: translateX(-200%);
+     transform: translateX(-202%);
     }
 }
 
+.name p{
+    font-size: 12vh;
+    color: white;
+}
 
+.shally{
+    padding-top: 20vh;
+}
 @media(max-width:768px){
+ 
+    .shally{
+        padding-top: 6vh;
+    }
 
+    .name p{
+        font-size: 5vh;
+    }
 }
