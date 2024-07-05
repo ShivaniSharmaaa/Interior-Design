@@ -46,6 +46,50 @@
 .shally{
     padding-top: 20vh;
 }
+
+.page2{
+    position: relative;
+    top: 70vh;
+}
+
+.page2 img{
+    height: 30vh;
+}
+
+.head{
+    font-size: 3.5vh;
+}
+
+.leftpg2{
+   
+    transform: translateX(-1.5%);
+    animation: left;
+    animation-duration: 2s;
+}
+@keyframes left{
+   0%{
+    transform: translateX(+1.5%);
+   }
+   
+   100%{
+    transform: translateX(-1.5%);
+   }
+}
+
+.rightpg2{
+    animation: top;
+    animation-duration: 2s;
+}
+@keyframes top{
+  0%{
+    transform: translateY(+3%);
+  }
+  100%{
+    transform: translateY(0%);
+  }
+}
+
+
 @media(max-width:768px){
  
     .shally{
@@ -54,5 +98,9 @@
 
     .name p{
         font-size: 5vh;
+    }
+
+    .page2{
+        top: 10vh;
     }
 }
