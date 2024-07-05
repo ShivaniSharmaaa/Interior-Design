@@ -126,6 +126,9 @@
   }
 @media(max-width:768px){
  
+    .img-container img{
+        height: 35vh;
+    }
     .shally{
         padding-top: 6vh;
     }
@@ -135,11 +138,11 @@
     }
 
     .page2{
-        top: 10vh;
+        top: 5vh;
     }
 
     .page3{
-       top: 15vh;
+       top: 12vh;
     }
 
     .page3Inside{
@@ -148,7 +151,7 @@
 
     .page3img{
        
-        height: 205vh;
+        height: 200vh;
     }
 
    
