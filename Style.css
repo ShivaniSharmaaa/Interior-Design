@@ -60,6 +60,10 @@
     font-size: 3.5vh;
 }
 
+.topic{
+    font-size: 5vh;
+}
+
 .leftpg2{
    
     transform: translateX(-1.5%);
@@ -168,6 +172,27 @@
     background-color: black;
   
 }
+
+.page5{
+    position: relative;
+    top: 82vh;
+} 
+
+.page5 img{
+    height: 70vh;
+    width: 100%;
+}
+
+.mask1{
+    position: absolute;
+    width: 100%;
+    background: rgba(0, 0,0 ,0.4 );
+    height: 74%;
+}
+
+.page52{
+    padding: 30vh;
+}
 @media(max-width:768px){
  
     .img-container img{
@@ -204,5 +229,25 @@
 
     .page4{
         top: 16vh;
+    }
+
+    .page5{
+        top: 18vh;
+    }
+
+    .page52{
+        padding: 3vh;
+    }
+
+    .page5 img{
+        height: 55vh;
+    }
+
+    .mask1{
+        height: 55vh;
+    }
+
+    .page5 button{
+        margin-left: 10vw;
     }
 }
