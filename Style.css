@@ -190,10 +190,41 @@
     height: 74%;
 }
 
-.page52{
-    padding: 30vh;
+.page52 p{
+padding: 10vh;
 }
+.name{
+    margin-top: -20vh;
+}
+
+.page52{
+    position: absolute;top: 40%; left: 30%;
+}
+
+.swiper {
+  
+    width: 40%;
+    height: 40%;
+  }
 @media(max-width:768px){
+.page52{
+    top:50%;
+    left: 10%;
+}
+
+.page52 p{
+    padding: 3vh;  
+}
+
+.name{
+    margin-top: -6vh;
+}
+
+    .swiper {
+  
+        width: 80%;
+        height: 40%;
+      }
  
     .img-container img{
         height: 35vh;
