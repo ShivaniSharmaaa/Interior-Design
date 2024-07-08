@@ -193,7 +193,7 @@
 .page52 p{
 padding: 10vh;
 }
-.name{
+.nameT{
     margin-top: -20vh;
 }
 
@@ -216,69 +216,68 @@ padding: 10vh;
     padding: 3vh;  
 }
 
-.name{
+.nameT{
     margin-top: -6vh;
 }
 
-    .swiper {
+.swiper {
   
         width: 80%;
-        height: 40%;
-      }
+        height: 40%;  }
  
-    .img-container img{
+.img-container img{
         height: 35vh;
     }
-    .shally{
+.shally{
         padding-top: 6vh;
     }
 
-    .name p{
+.name p{
         font-size: 5vh;
     }
 
-    .page2{
+.page2{
         top: 9vh;
     }
 
-    .page3{
+.page3{
        top: 14vh;
     }
 
-    .page3Inside{
+.page3Inside{
         padding: 0;
     }
 
-    .page3img{
+.page3img{
        
         height: 195vh;
     }  
 
-    .num{
+.num{
         width: 15vw;
     }
 
-    .page4{
+.page4{
         top: 16vh;
     }
 
-    .page5{
+.page5{
         top: 18vh;
     }
 
-    .page52{
+.page52{
         padding: 3vh;
     }
 
-    .page5 img{
+.page5 img{
         height: 55vh;
     }
 
-    .mask1{
+.mask1{
         height: 55vh;
     }
 
-    .page5 button{
+.page5 button{
         margin-left: 10vw;
     }
 }
