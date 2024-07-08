@@ -215,6 +215,27 @@ padding: 10vh;
 .page6 img{
     height: 68vh;
 }
+
+.page7{
+    position: relative;
+    top: 95vh;
+}
+
+.mask2{
+    -webkit-mask-image: linear-gradient( transparent,black);
+    mask-image: linear-gradient( transparent,black);
+}
+
+.page7 img{
+    width: 100vw;
+    height: 25vh;
+}
+
+.page72{
+    position: relative;
+    top: 77vh;
+   
+}
 @media(max-width:768px){
 .page52{
     top:50%;
@@ -298,5 +319,19 @@ padding: 10vh;
 .page6 img{
     height: 60vh;
     margin-left: -6vh;
+}
+
+.page7{
+    top:23vh ;
+}
+
+.page7 img{
+    height: 70vh;
+}
+
+.page72{
+    padding-left: 16vh;
+
+    top: -40vh;
 }
 }
