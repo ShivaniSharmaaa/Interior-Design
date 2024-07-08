@@ -1,4 +1,4 @@
-let valueDisplays = document.querySelectorAll(".num");
+let valueDisplays = document.querySelectorAll(".num1");
 let interval=5000;
 
 valueDisplays.forEach((valueDisplay)=>{
