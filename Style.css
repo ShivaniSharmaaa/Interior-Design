@@ -180,7 +180,7 @@
 
 .page5 img{
     height: 70vh;
-    width: 100%;
+   width: 100%;
 }
 
 .mask1{
@@ -227,7 +227,7 @@ padding: 10vh;
 }
 
 .page7 img{
-    width: 100vw;
+    width:  98.7vw;
     height: 25vh;
 }
 
@@ -235,6 +235,25 @@ padding: 10vh;
     position: relative;
     top: 77vh;
    
+}
+
+.page8{
+    position: relative;
+    top: 78vh;
+    background-color: black;
+    padding-top: 5vh;
+}
+
+.page8 a{
+    color: white;
+}
+
+.page8 p{
+    color: white;
+   
+}
+.page8T{
+    font-size: 3vh;
 }
 @media(max-width:768px){
 .page52{
@@ -291,6 +310,14 @@ padding: 10vh;
         top: 16vh;
     }
 
+.page4 img{
+    height: 25vh;
+}
+
+#Bedroom {
+    height: 23vh;
+}
+
 .page5{
         top: 18vh;
     }
@@ -334,4 +361,8 @@ padding: 10vh;
 
     top: -40vh;
 }
+.page8{
+    top: -30vh;
+}
+
 }

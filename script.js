@@ -1,15 +1,27 @@
-let valueDisplays = document.querySelectorAll(".num1");
-let interval=5000;
+const counters = document.querySelectorAll('.value'),
+  speed = 300,
+  /**
+   * create an IntersectionObserver with the specified callback that will be executed for each intersection change for every counter we have. 
+   * You may customize the options (2nd argument) per you requirement
+   */
+  observer = new IntersectionObserver(
+    entries => entries.forEach(entry => entry.isIntersecting && animate(entry.target)), 
+    {
+      threshold: 1 // tells the browser that we only need to execute the callback only when an element (counter) is fully visible in the viewport
+    }
+  ),
+  // the animate function now accepts a counter (HTML element)
+  animate = counter => {
+    const value = +counter.dataset.akhi,
+      data = +counter.innerText,
+      time = value / speed;
+    if (data < value) {
+      counter.innerText = Math.ceil(data + time);
+      setTimeout(() => animate(counter), 1);
+    } else {
+      counter.innerText = value;
+    }
+  };
 
-valueDisplays.forEach((valueDisplay)=>{
-    let startValue=0;
-    let endValue= parseInt(valueDisplay.getAttribute("data-val"));
-    let duration= Math.floor(interval/endValue);
-    let counter= setInterval(function(){
-        startValue+=1;
-        valueDisplay.textContent=startValue;
-        if(startValue==endValue){
-            clearInterval(counter);
-        }
-    },duration);
-})
+// attach the counters to the observer
+counters.forEach(c => observer.observe(c));
