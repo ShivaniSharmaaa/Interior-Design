@@ -5,6 +5,27 @@
     left: 0vh;
 }
 
+#options{
+   position: absolute;
+   left: 59vw;
+   z-index: 10;
+   color: white;
+   background-color: BLACK;
+   display: none;
+}
+
+#smOptions{
+  background-color: white; 
+  display: none; 
+}
+
+#smOptions a{
+    color: black;
+}
+#options a{
+    color: white;
+    text-decoration: none;
+}
 .img-container{
     display: flex;
    width: 109%;
@@ -359,11 +380,11 @@ padding: 10vh;
 
 .page72{
     padding-left: 16vh;
-
     top: -40vh;
 }
 .page8{
     top: -30vh;
+  
 }
 
 }

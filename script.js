@@ -25,3 +25,13 @@ const counters = document.querySelectorAll('.value'),
 
 // attach the counters to the observer
 counters.forEach(c => observer.observe(c));
+
+
+function myfunc(){
+  if(window.innerWidth>768){
+  document.getElementById("options").style.display="block";}
+  else{
+    document.getElementById("smOptions").style.display="block";
+  }
+  
+} 
