@@ -13,11 +13,11 @@
     <link rel="stylesheet" href="Style.css">
     <title>Best Interior Designer In Delhi</title>
   </head>
-  <body>
+  <body >
 <div class="container">
   <div class="row">
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            <a class="navbar-brand logo" href="#"><img src="logo (1).png"  alt=""></a>
+            <a class="navbar-brand logo" href="#" onclick="secfunc()"><img src="logo (1).png"  alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -26,27 +26,28 @@
             <div class="collapse navbar-collapse opt " id="navbarNavAltMarkup">
               <div class="navbar-nav ">
                 
-                <a class="nav-item nav-link active ml-md-5 pl-md-5 home"  href="#">HOME </a>                                                            
-                <a class="nav-item nav-link ml-md-2" href="#">
-                  <div class="dropdown ques">     
-                    <p  style="overflow-wrap:break-word ; " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-item nav-link active ml-md-5 pl-md-5 home"  href="#" >HOME </a>                                                            
+                <p class="nav-item nav-link ml-md-2 ">
+                  <div class="dropdown ques" >     
+                    <p  class="navOpt" style="overflow-wrap:break-word ; " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                      ABOUT US
                     </p>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: black;" >
-                      <p style="background-color: white; text-align: center; color: white; background-color: black;"  href="#">Why Choose Us</p>         
-                    </div>
+                    <a href="whyUs.html">
+                    <div class="dropdown-menu top" aria-labelledby="navbarDropdown"  >
+                      <p  class="top" >Why Choose Us</p>         
+                    </div></a>
                   </div>
-                </a>                
-                <a class="nav-item nav-link ml-md-2" href="#">
+                </p>                
+                <p class="nav-item nav-link ml-md-2 ">
                   <div class="dropdown ques">     
-                    <p  style="overflow-wrap:break-word ; " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <p class="navOpt" style="overflow-wrap:break-word ; " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                      INTERIOR DESIGN SERVICES
                     </p>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: black;" >
-                      <p style="background-color: white; text-align: center; color: white; background-color: black;" onclick="myfunc()">
+                    <div class="dropdown-menu top" aria-labelledby="navbarDropdown"  >
+                      <p  onclick="myfunc()">
                        RESIDENTIAL INTERIOR DESIGN
                       </p>                                                                               
-                      <p style="background-color: white; text-align: center; color: white; background-color: black;"  href="#">COMMERCIAL INTERIOR DESIGNING</p> 
+                      <p onclick="myfunc2()" >COMMERCIAL INTERIOR DESIGNING</p> 
                     </div>
                 
                     <div class="row " id="smOptions" data-aos="fade-down" style="z-index: 11; position: absolute; top: -5vh;">
@@ -58,12 +59,20 @@
                       </div>          
                     </div>  
                   
+                    <div class="row " id="smOptions2" data-aos="fade-down" style="z-index: 11; position: absolute; top: -3vh;">
+                      <div class="col-12">
+                     <p><a href="">OFFICE ENTRANCE DESIGN</a></p>
+                        <p><a href="">OFFICE INTERIOR DESIGN</a></p>
+                        <p><a href="">RESTAURANT INTERIOR DESIGN</a></p>
+                        <p><a href="">GYM INTERIOR DESIGN</a></p>
+                      </div>          
+                    </div>
 
                   </div>
-                </a>                
-                <a class="nav-item nav-link ml-md-2" href="#">BLOG</a>
-                <a class="nav-item nav-link ml-md-2" href="#">EVENT AND ADVERTISING</a>
-                <a class="nav-item nav-link ml-md-2" href="#">CONTACT</a>
+                </p>                
+                <a class="nav-item nav-link ml-md-2" style="color: black;" href="#" >BLOG</a>
+                <a class="nav-item nav-link ml-md-2" style="color: black;" href="#">EVENT AND ADVERTISING</a>
+                <a class="nav-item nav-link ml-md-2" style="color: black;" href="#">CONTACT</a>
               </div>
             </div>
           </nav>
@@ -80,7 +89,15 @@
               <p><a href="">DRESSING ROOM INTERIOR DESIGN</a></p>
             </div>          
           </div>
-          <div class="container-fluid img-box">
+          <div class="row " id="options2"  data-aos="fade-down">
+            <div class="col-12">
+           <p><a href="">OFFICE ENTRANCE DESIGN</a></p>
+              <p><a href="">OFFICE INTERIOR DESIGN</a></p>
+              <p><a href="">RESTAURANT INTERIOR DESIGN</a></p>
+              <p><a href="">GYM INTERIOR DESIGN</a></p>
+            </div>          
+          </div>
+          <div class="container-fluid img-box" onclick="secfunc()">
          <div class="img-container">
           <img src="banner8.jpg" alt="">
           <img src="banner9.jpg" alt="">

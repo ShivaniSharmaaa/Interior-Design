@@ -5,7 +5,11 @@
     left: 0vh;
 }
 
-#options{
+.navOpt{
+    margin-top: 1vh;
+}
+
+#options,#options2{
    position: absolute;
    left: 59vw;
    z-index: 10;
@@ -14,16 +18,43 @@
    display: none;
 }
 
-#smOptions{
+#smOptions2{
   background-color: white; 
   display: none; 
 }
 
+#smOptions{
+    background-color: white; 
+    display: none;   
+}
+
 #smOptions a{
+ color: black;
+}
+
+#smOptions2 a{
     color: black;
 }
+#options2 a{
+    color: white;
+    text-decoration: none;
+}
+
 #options a{
     color: white;
+    text-decoration: none;
+}
+
+.top{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.top:hover{
+    text-align: center;
+    color: white;
+    background-color: black;
     text-decoration: none;
 }
 .img-container{
@@ -276,7 +307,29 @@ padding: 10vh;
 .page8T{
     font-size: 3vh;
 }
+
+.whyUsImg{
+    width: 100%;
+    height: 40vh;
+}
+
+.maskWhyUs{
+    position: absolute;
+    width: 100%;
+    background: rgba(0, 0,0 ,0.4 );
+    height:40vh;   
+}
+
+.whyUsTopName{
+    position: relative;
+    top: -25vh;
+}
 @media(max-width:768px){
+
+.top{
+    color: black;
+    background-color: white;
+}  
 .page52{
     top:50%;
     left: 10%;
@@ -374,17 +427,29 @@ padding: 10vh;
 }
 
 .page7 img{
-    height: 70vh;
+    height: 90vh;
     width: 95vw;
 }
 
 .page72{
     padding-left: 16vh;
-    top: -40vh;
+    top: -50vh;
 }
 .page8{
-    top: -30vh;
+    top: 0vh;
+    margin-top: -30vh;
   
 }
 
+.whyUsImg{
+    height: 50vh;
+}
+
+.maskWhyUs{
+    height: 50vh;
+}
+
+.whyUsTopName{
+    top: -35vh;
+}
 }

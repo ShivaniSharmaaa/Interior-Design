@@ -34,4 +34,25 @@ function myfunc(){
     document.getElementById("smOptions").style.display="block";
   }
   
+}
+
+function myfunc2(){
+  if(window.innerWidth>768){
+  document.getElementById("options2").style.display="block";
+  }
+  else{
+    document.getElementById("smOptions2").style.display="block";
+    
+  }
+  
+
+} 
+
+function secfunc(){
+  if(window.innerWidth>768 ){
+  document.getElementById("options").style.display="none";}
+  else{
+    document.getElementById("smOptions").style.display="none";
+  }
+  
 } 
