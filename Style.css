@@ -242,6 +242,16 @@
     height: 74%;
 }
 
+.whyUsmask{
+    position: absolute;
+    width: 100%;
+    background: rgba(0, 0,0 ,0.4 );
+    height: 74%;
+}
+.whyUs3 img{
+  width: 100%;
+margin-bottom: 30vh;
+}
 .page52 p{
 padding: 10vh;
 }
@@ -323,6 +333,45 @@ padding: 10vh;
 .whyUsTopName{
     position: relative;
     top: -25vh;
+}
+
+#whyUs2Img{
+  
+    margin-top: -8vh;
+}
+
+.whyUs3{
+    position: relative;
+    top: 0vh;
+}
+
+.whyUs3 img{
+    height: 65vh;
+}
+.whyUsmask{
+    height: 65vh;
+}
+
+.bottom{
+    position: relative;
+    top: 0vh;
+    background-color: black;
+    margin-top: -61vh;
+}
+
+.bottom a, .bottom p{
+    color: white;
+}
+
+.whyUsSwiper{
+    
+    z-index: 100;
+   position: relative;
+   top: -80vh;
+}
+#whyUsSwiper{
+    position: relative;
+    top: -64vh;
 }
 @media(max-width:768px){
 
@@ -441,8 +490,28 @@ padding: 10vh;
   
 }
 
+.bottom{
+    position: relative;
+    top: 0vh;
+    background-color: black;
+}
+
+.bottom a, .bottom p{
+    color: white;
+}
+
 .whyUsImg{
     height: 50vh;
+}
+
+.whyUs2{
+    position: relative;
+    margin-top: -10vh;
+   
+}
+
+#whyUs2Img{
+    height: 33vh;
 }
 
 .maskWhyUs{
@@ -451,5 +520,9 @@ padding: 10vh;
 
 .whyUsTopName{
     top: -35vh;
+}
+
+#whyUsSwiper{
+    top: -67vh;
 }
 }
