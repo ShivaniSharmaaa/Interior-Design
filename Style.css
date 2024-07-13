@@ -559,4 +559,12 @@ width: 43vw;
 .blogRSide img{
     width: 95%;
 }
+
+.navOpt{
+    margin-top: -4vh;
+}
+
+.blog{
+    margin-top: -3vh;
+}
 }
