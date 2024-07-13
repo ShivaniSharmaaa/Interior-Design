@@ -359,8 +359,12 @@ padding: 10vh;
     margin-top: -61vh;
 }
 
-.bottom a, .bottom p{
+.bottom a, .bottom p,.footer a, .footer p{
     color: white;
+}
+
+.footer{
+    background-color: black;
 }
 
 .whyUsSwiper{
@@ -372,6 +376,24 @@ padding: 10vh;
 #whyUsSwiper{
     position: relative;
     top: -64vh;
+}
+
+.blogLSide img{
+    height: 6vh;
+    width: 6vw;
+}
+
+.blogRSide img{
+width: 43vw;
+}
+
+
+.blogLSide a,.blogRSide a{
+    color: black;
+}
+.blogLSide a:hover, .blogRSide a:hover{
+    color: #e1ad01;
+    text-decoration: none;
 }
 @media(max-width:768px){
 
@@ -524,5 +546,17 @@ padding: 10vh;
 
 #whyUsSwiper{
     top: -70vh;
+}
+
+.blogLSide{
+    margin-top: -10vh;
+}
+
+.blogLSide img{
+    width: 15vw;
+}
+
+.blogRSide img{
+    width: 95%;
 }
 }
