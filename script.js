@@ -56,3 +56,15 @@ function secfunc(){
   }
   
 } 
+
+$('#country-select').val('TN');
+
+$('#country-select').val('TN').trigger('change');
+
+$('.checkbox').click(function(){
+  if ($(this).is(':checked')) {
+      $(this).removeClass('has-error').addClass('has-success'); // checked
+  } else {
+      $(this).addClass('has-error'); //unchecked
+  }
+});

@@ -335,6 +335,11 @@ padding: 10vh;
     top: -25vh;
 }
 
+.contactTopName{
+    position: relative;
+    top: -20vh;
+}
+
 #whyUs2Img{
   
     margin-top: -8vh;
@@ -398,6 +403,11 @@ width: 43vw;
 
 .Event img{
    height: 40vh;
+}
+
+.contactImg{
+    height: 30vh;
+    width: 100%;
 }
 @media(max-width:768px){
 
@@ -546,6 +556,10 @@ width: 43vw;
 
 .whyUsTopName{
     top: -35vh;
+}
+
+.contactTopName{
+    top: -32vh;
 }
 
 #whyUsSwiper{
