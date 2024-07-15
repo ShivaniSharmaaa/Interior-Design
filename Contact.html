@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="Style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-formhelpers/2.3.0/css/bootstrap-formhelpers.css" rel="stylesheet"/>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <title>Contact</title>
   </head>
   <body >
@@ -134,14 +135,12 @@
           </div>
           <div class="col-md-4 mt-md-5">
             <form action="">
-              <input type="text" class="form-control mt-md-2" placeholder="Your Message" style="height: 15vh;">
+              <input type="text" class="form-control mt-2 " placeholder="Your Message" style="height: 15vh;">
 
-              <div class="checkbox mt-1">
-                <input type="checkbox" name="checkbox" placeholder="robot">
-                <label for="checkbox">I am not a Robot!</label>
-                <div>
-                <button type="submit" class="btn " style="border-color: black;">Submit Form</button></div>
-              </div>
+              
+                  <div class="g-recaptcha mt-2 mb-2" data-sitekey="6LcbdhAqAAAAAI8eKOiRk8IZk1MPxvIQpQSJXJTI"></div>
+                <button type="submit" class="btn " style="border-color: black;">Submit Form</button>
+             
             </form>
           </div>
           <div class="col-md-4"  style="padding: 4vh;" ><p >Contact Us</p><p>KG- 1/523, Vikas Puri, New Delhi- 110018</p><p><a href=""><span style="color: #e1ad01;">Phone</span>:(+91) 999 960 6298</a></p><hr style="background-color: grey;"><p><a href=""></a><a href=""><span style="color: #e1ad01;">Email</span>:interiorshallygupta@gmail.com</p></a><hr style="background-color: grey;"><p><a href=""><span style="color: #e1ad01;">Web</span>:www.shallyinteriordesigner.com</a></p><hr style="background-color: grey;"><p>Market Area</p><hr style="background-color: grey;"></div>
