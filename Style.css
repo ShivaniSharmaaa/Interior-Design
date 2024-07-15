@@ -395,6 +395,10 @@ width: 43vw;
     color: #e1ad01;
     text-decoration: none;
 }
+
+.Event img{
+   height: 40vh;
+}
 @media(max-width:768px){
 
 .top{
