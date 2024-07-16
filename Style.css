@@ -409,6 +409,18 @@ width: 43vw;
     height: 30vh;
     width: 100%;
 }
+
+.Bathroom a{
+    color: black;
+}
+.Bathroom a:hover{
+    color: #e1ad01;
+    text-decoration: none;
+}
+
+.Bathroom img{
+    width: 24vw;
+}
 @media(max-width:768px){
 
 .top{
