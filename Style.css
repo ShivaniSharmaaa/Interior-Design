@@ -5,18 +5,36 @@
     left: 0vh;
 }
 
+
+
 .navOpt{
     margin-top: 1vh;
 }
 
 #options,#options2{
    position: absolute;
-   left: 59vw;
+   left: 62vw;
+   top: 9vh;
    z-index: 10;
    color: white;
    background-color: BLACK;
    display: none;
 }
+
+#optionsInterior{
+    position: absolute;
+    left: 45vw;
+    z-index: 10;
+    color: white;
+    background-color: BLACK;
+    display: none;
+    top: 8.5vh;
+ }
+
+ #optionsInterior a,  #optionsInterior a:hover{
+    color: white;
+    text-decoration: none;
+ }
 
 #smOptions2{
   background-color: white; 
@@ -168,6 +186,7 @@
    animation-name: opac;
    animation-duration: 1s;
    animation-timing-function: ease-in-out;
+  
 }
 
 .page4 p{
@@ -421,8 +440,38 @@ width: 43vw;
 .Bathroom img{
     width: 24vw;
 }
-@media(max-width:768px){
 
+.navDrop{
+    display: none;
+}
+
+.Interior a{
+    color: black;
+}
+
+.Interior{
+    margin-top: 1vh;
+}
+
+.aboutUs a{
+    color: black;
+}
+
+.aboutUs{
+    margin-top: 1vh;
+}
+
+.interiorDrop{
+    display: none;
+}
+
+@media(max-width:768px){
+#optionsInterior{
+        display: none;
+    }
+.navDrop{
+    display: block;
+}
 .top{
     color: black;
     background-color: white;
@@ -590,10 +639,19 @@ width: 43vw;
     width: 95%;
 }
 
-.navOpt{
+.Interior{
     margin-top: -4vh;
+    margin-bottom: 2vh;
+    color: black;
 }
 
+.aboutUs{
+    margin-top: -3vh;
+}
+
+.interiorDrop{
+    display: inline;
+}
 .blog{
     margin-top: -3vh;
 }
