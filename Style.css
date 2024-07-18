@@ -31,8 +31,23 @@
     top: 8.5vh;
  }
 
- #optionsInterior a,  #optionsInterior a:hover{
+#aboutUsOption{
+    position: absolute;
+    left: 38vw;
+    top: 8.5vh;
     color: white;
+    background-color: BLACK;
+    display: none;
+}
+
+
+ #optionsInterior a, #aboutUsOption a{
+    color: white;
+    text-decoration: none;
+ }
+
+ #optionsInterior a:hover, #aboutUsOption a:hover{
+    color: #e1ad01;
     text-decoration: none;
  }
 
@@ -61,6 +76,10 @@
 #options a{
     color: white;
     text-decoration: none;
+}
+
+#options a:hover,#options2 a:hover{
+    color: #e1ad01;
 }
 
 .top{
@@ -359,11 +378,9 @@ padding: 10vh;
     top: -20vh;
 }
 
-#whyUs2Img{
-  
-    margin-top: -8vh;
+.whyUsPage {
+margin-top: -4vh;
 }
-
 .whyUs3{
     position: relative;
     top: 0vh;
@@ -465,10 +482,74 @@ width: 43vw;
     display: none;
 }
 
+.down{
+    display: none;
+}
+
+.aboutUsPage img{
+
+ width: 39vw;
+}
+
+#commercialImg{
+    display: none;
+}
+
+.interiorDesign img{
+    width: 40vw; 
+   }
+   #commercialImg2{
+   width: 80vw;
+}
+
+
 @media(max-width:768px){
-#optionsInterior{
+
+    #commercialImg{
+        display: block;
+    }
+
+    #commercialImg2{
         display: none;
     }
+
+.down{
+    display: inline;
+}
+    #optionsInterior{
+        left: 5vw;
+        top: 22vh;
+        color: black;
+        background-color: white;
+    }
+
+    #aboutUsOption{
+        background-color: #fff;
+        left: 5vw;
+        top: 18vh;
+        padding-right: 30vw;
+        
+    }
+
+    #optionsInterior a, #aboutUsOption a{
+        color: black;
+        background-color: #fff;
+    }
+
+    #options,  #options a{
+       left: 5vw;
+       top: 25vh;
+       background-color: #fff;
+       color: black;
+    }
+
+    #options2,#options2 a {
+        top: 28vh;
+        left: 5vw;
+        background-color: #fff;
+       color: black;
+    }
+
 .navDrop{
     display: block;
 }
@@ -667,4 +748,32 @@ width: 43vw;
 .BathroomL{
    margin-top:-20vh;
 }
+
+.whyUsPage {
+    margin-top: -6vh;
+    }
+
+.whyUsPage img{
+    width: 90vw;
+}
+
+.aboutUsPage img{
+    width: 90vw;
+    margin-top: -10vh;
+
+   }
+
+   .interiorDesign{
+    margin-top: -20vh;  
+   }
+
+   .interiorDesign img,#commercialImg2{
+    width: 90vw; 
+   }
+   #commercialImg{
+    width: 50vw; 
+   }
+
+
+
 }

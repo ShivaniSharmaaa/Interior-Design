@@ -29,56 +29,20 @@
               <div class="navbar-nav ">
                 
                 <a class="nav-item nav-link active ml-md-5 pl-md-5 home " onmouseover="this.style.color='#e1ad01'" onmouseout="this.style.color='black'" href="Index.html" >HOME </a>                                                            
-                <p class="nav-item nav-link ml-md-2 ">
+                <p class="nav-item nav-link ml-md-2 " >
+                  <div onmouseover="aboutUsOption.style.display='block'" onmouseout="aboutUsOption.style.display='none'">
                   <div class="dropdown ques aboutUs" > 
-                    <span class="pr-5 pr-md-0 aboutUs" ><a onmouseover="this.style.color='#e1ad01'" onmouseout="this.style.color='black'" style="text-decoration: none;" href="about.html">  ABOUT US</a></span>    
-                    <span  class="aboutUs " onmouseover="this.style.color='#e1ad01'" onmouseout="this.style.color='black'" style="overflow-wrap:break-word ; " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      ˅
-                    </span>
-                    <a href="whyUs.html">
-                    <div class="dropdown-menu top" aria-labelledby="navbarDropdown"  >
-                      <p  class="top" >Why Choose Us</p>         
-                    </div></a>
-                  </div>
+                    <span class="pr-3 pr-md-0 aboutUs" ><a onmouseover="this.style.color='#e1ad01'" onmouseout="this.style.color='black'" style="text-decoration: none;" href="about.html">  ABOUT US</a></span>                               
+                    <span class="down"> ˅</span>
+                  </div></div>
                 </p>  
                             
                 <p class="nav-item nav-link ml-md-2 "  onmouseleave="optionsInterior.style.display='none'">
                     
                   <div class="dropdown ques Interior "  onmouseenter="optionsInterior.style.display='block'" onmouseleave="optionsInterior.style.display='none'"  >  
                     <span class="pr-3 pr-md-0"><a onmouseenter="this.style.color='#e1ad01'"  onmouseleave="this.style.color='black' " style="text-decoration: none;" href="InteriorDesign.html">INTERIOR DESIGN SERVICES  </a></span>
-                    <span onmouseenter=" optionsInterior.style.display='none'" style="overflow-wrap:break-word ; " class="interiorDrop" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                 ˅
-                    </span>
-                    <div class="dropdown-menu top" aria-labelledby="navbarDropdown"  >
-                      <span style="padding-right: 5vw;"><a href=""> RESIDENTIAL INTERIOR DESIGN </a></span>
-                      <span  onclick="myfunc()">
-                        ˅
-                      </span>
-                      <br>
-                      <span style="padding-right: 5vw;"><a href="Commercial.html">COMMERCIAL INTERIOR DESIGN </a></span>                                                                              
-                      <span onclick="myfunc2()" >˅</span> 
-                    </div>
-                
-                    <div class="row " id="smOptions" data-aos="fade-down" style="z-index: 11; position: absolute; top: -5vh;">
-                      <div class="col-12">
-                     <p><a href="Bathroom.html">BATHROOM INTERIOR DESIGN</a></p>
-                        <p><a href="Bedroom.html">BEDROOM INTERIOR DESIGN</a></p>
-                        <p><a href="Dining.html">DINING ROOM INTERIOR DESIGN</a></p>
-                        <p><a href="Dressing.html">DRESSING ROOM INTERIOR DESIGN</a></p>
-                      </div>          
-                    </div>  
-                  
-                    <div class="row " id="smOptions2" data-aos="fade-down" style="z-index: 11; position: absolute; top: -3vh;">
-                      <div class="col-12">
-                     <p><a href="OfficeEntrance.html">OFFICE ENTRANCE DESIGN</a></p>
-                        <p><a href="office.html">OFFICE INTERIOR DESIGN</a></p>
-                        <p><a href="Restaurant.html">RESTAURANT INTERIOR DESIGN</a></p>
-                        <p><a href="Gym.html">GYM INTERIOR DESIGN</a></p>
-                      </div>          
-                    </div>
-
-                  </div>
-                </p>                
+                    <span class="down" > ˅</span></div>
+                     </p>                
                 <a class="nav-item nav-link ml-md-2 blog" onmouseover="this.style.color='#e1ad01'" onmouseout="this.style.color='black'" style="color: black;" href="Blog.html" >BLOG</a>
                 <a class="nav-item nav-link ml-md-2" onmouseover="this.style.color='#e1ad01'" onmouseout="this.style.color='black'" style="color: black;" href="Event.html">EVENT AND ADVERTISING</a>
                 <a class="nav-item nav-link ml-md-2" onmouseover="this.style.color='#e1ad01'" onmouseout="this.style.color='black'" style="color: black;" href="Contact.html">CONTACT</a>
@@ -89,12 +53,20 @@
         </div>
         
         <div class="row ">
+          <div class="row" id="aboutUsOption" onmouseover="aboutUsOption.style.display='block'" onmouseout="aboutUsOption.style.display='none'">
+            <p><a href="whyUs.html">WHY CHOOSE US</a></p>
+          </div>
 
           <div class="row " id="optionsInterior"  data-aos="fade-down" onmouseenter=" optionsInterior.style.display='block'" onmouseleave=" optionsInterior.style.display='none'">
             <div class="col-12" onmouseenter="options.style.display='block'" onmouseleave="options.style.display='none'">
              
-           <p ><a href="Bathroom.html">RESIDENTIAL INTERIOR DESIGN</a></p></div>
-            <div class="col-12"  onmouseenter="options2.style.display='block'" onmouseleave="options2.style.display='none'"><p><a href="Bathroom.html">COMMERCIAL INTERIOR DESIGN</a></p>
+           <span class="pr-3 pb-md-0 pb-2" ><a href="Residential.html">RESIDENTIAL INTERIOR DESIGN</a></span>
+           <span class="down" >˅</span></div>
+           
+           
+            <div class="col-12"  onmouseenter="options2.style.display='block'" onmouseleave="options2.style.display='none'">
+              <span class="pr-3"><a href="Commercial.html">COMMERCIAL INTERIOR DESIGN</a></span>
+              <span class="down">˅</span>
             </div>          
           </div>
           
