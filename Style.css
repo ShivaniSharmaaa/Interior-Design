@@ -503,6 +503,10 @@ width: 43vw;
 }
 
 
+.residential img{
+    width: 15vw;
+}
+
 @media(max-width:768px){
 
     #commercialImg{
