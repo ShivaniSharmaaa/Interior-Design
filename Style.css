@@ -498,8 +498,8 @@ width: 43vw;
 .interiorDesign img{
     width: 40vw; 
    }
-   #commercialImg2{
-   width: 80vw;
+   #commercialImg2 img{
+   width: 40vw;
 }
 
 
@@ -770,8 +770,8 @@ width: 43vw;
    .interiorDesign img,#commercialImg2{
     width: 90vw; 
    }
-   #commercialImg{
-    width: 50vw; 
+   #commercialImg img{
+    width: 90vw; 
    }
 
 
