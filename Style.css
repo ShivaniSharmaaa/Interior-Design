@@ -518,7 +518,7 @@ width: 43vw;
 }
     #optionsInterior{
         left: 5vw;
-        top: 23vh;
+        top: 24vh;
         color: black;
         background-color: white;
     }
@@ -538,13 +538,13 @@ width: 43vw;
 
     #options,  #options a{
        left: 5vw;
-       top: 25vh;
+       top: 27vh;
        background-color: #fff;
        color: black;
     }
 
     #options2,#options2 a {
-        top: 28vh;
+        top: 31vh;
         left: 5vw;
         background-color: #fff;
        color: black;
