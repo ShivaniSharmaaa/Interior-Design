@@ -1,11 +1,6 @@
 .img-box{
-    overflow: hidden;
-    
+    overflow: hidden;    
 }
-
- 
-
-
 
 .navOpt{
     margin-top: 1vh;
@@ -124,7 +119,7 @@
 }
 
 .page2{
-    margin-top: -50vh;
+    margin-top: -56vh;
 }
 
 .page2 img{
@@ -168,10 +163,7 @@
   }
 }
 
-.page3{
-    position: relative;
-    top: 75vh;
-}
+
 .page3img{
    width: 100%;
    height: 90vh;
@@ -589,18 +581,18 @@ width: 43vw;
     width: 85vw;
 }
 
-.page3{
-       top: 14vh;
-    }
+
 
 .page3Inside{
         padding: 0;
     }
 
-.page3img{
+.page3img, .mask{
        
-        height: 195vh;
+        height: 165vh;
     }  
+
+
 
 .num{
         width: 15vw;
