@@ -68,3 +68,5 @@ $('.checkbox').click(function(){
       $(this).addClass('has-error'); //unchecked
   }
 });
+
+

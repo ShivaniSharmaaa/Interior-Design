@@ -1,9 +1,9 @@
 .img-box{
     overflow: hidden;
-    position: absolute;
     
-    left: 0vh;
 }
+
+ 
 
 
 
@@ -51,23 +51,7 @@
     text-decoration: none;
  }
 
-#smOptions2{
-  background-color: white; 
-  display: none; 
-}
 
-#smOptions{
-    background-color: white; 
-    display: none;   
-}
-
-#smOptions a{
- color: black;
-}
-
-#smOptions2 a{
-    color: black;
-}
 #options2 a{
     color: white;
     text-decoration: none;
@@ -127,9 +111,12 @@
 }
 
 .name p{
+    position: relative;
+    top:-120vh;
     font-size: 12vh;
     color: white;
     text-align: center;
+    z-index: 50;
 }
 
 .shally{
@@ -137,12 +124,11 @@
 }
 
 .page2{
-    position: relative;
-    top: 70vh;
+    margin-top: -50vh;
 }
 
 .page2 img{
-    height: 28vh;
+    width: 20vw;;
 }
 
 .head{
@@ -509,6 +495,10 @@ width: 43vw;
 
 @media(max-width:768px){
 
+    .WhyOption{
+        display:none;
+        }
+
     #commercialImg{
         display: block;
     }
@@ -587,12 +577,17 @@ width: 43vw;
     }
 
 .name p{
+    top: -35vh;
         font-size: 5vh;
     }
 
 .page2{
-        top: 9vh;
-    }
+    margin-top: -30vh;
+}
+
+.page2 img{
+    width: 85vw;
+}
 
 .page3{
        top: 14vh;
