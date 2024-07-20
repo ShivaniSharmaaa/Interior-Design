@@ -1,3 +1,7 @@
+#logoHome{
+    margin-left: 12vw;
+}
+
 .img-box{
     overflow: hidden;    
 }
@@ -488,6 +492,10 @@ width: 43vw;
 }
 
 @media(max-width:768px){
+
+    #logoHome{
+        margin-left: 8vw;
+    }
 
     .WhyOption{
         display:none;
